@@ -30,4 +30,8 @@ function getRandomElement(arr) {
  let hiEnd = document.querySelector('.hiEnd');
  hiEnd.textContent = getRandomElement(hi) + " programmer";
  ```
+## Experience
+ No work experience in the IT field
  
+## Language
+ A1
