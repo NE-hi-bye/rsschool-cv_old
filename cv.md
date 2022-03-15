@@ -32,7 +32,9 @@ function getRandomElement(arr) {
  ```
 ## Experience
  [Portfolio Alexa Rise](https://rolling-scopes-school.github.io/ne-hi-bye-JSFEPRESCHOOL/portfolio/)
+
  [Parrots](https://rolling-scopes-school.github.io/ne-hi-bye-JSFEPRESCHOOL/js30v1)
+ 
  [CODER GAME](https://rolling-scopes-school.github.io/ne-hi-bye-JSFEPRESCHOOL/js30v3-coder)
 
 
