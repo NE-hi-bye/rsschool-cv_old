@@ -13,8 +13,8 @@ I am 39 years old and have worked in the construction industry all my life. A fe
 
 ## Skills
 * HTML
-* SCC (Bootstrap, BEM)
-* JS (beginner)
+* SCC
+* JS
 * Adobe: Photoshop, After Effects, Illustrator, Premiere Pro
 * Vegas Pro
 * CorelDRAW
@@ -31,7 +31,15 @@ function getRandomElement(arr) {
  hiEnd.textContent = getRandomElement(hi) + " programmer";
  ```
 ## Experience
- No work experience in the IT field
+ [Portfolio Alexa Rise](https://rolling-scopes-school.github.io/ne-hi-bye-JSFEPRESCHOOL/portfolio/)
+
+ [Parrots](https://rolling-scopes-school.github.io/ne-hi-bye-JSFEPRESCHOOL/js30v1)
  
+ [CODER GAME](https://rolling-scopes-school.github.io/ne-hi-bye-JSFEPRESCHOOL/js30v3-coder)
+
+
+## Education
+ Samara College of Construction and Entrepreneurship
+
 ## Language
- A1
+ A2
