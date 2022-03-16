@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400&display=swap" rel="stylesheet">
+	<title>Cv3</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<nav>
+				<ul class="nav_list">
+					<li class="nav_item"><a href="#contacts" class="nav_link">Contacts</a></li>
+					<li class="nav_item"><a href="#about-me" class="nav_link">About me</a></li>
+					<li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+					<li class="nav_item"><a href="#code" class="nav_link">Code</a></li>
+					<li class="nav_item"><a href="#experience" class="nav_link">Experience</a></li>
+					<li class="nav_item"><a href="#education" class="nav_link">Education</a></li>
+					<li class="nav_item"><a href="#lang" class="nav_link">Language</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="container">
+			<section class="section section_profile">
+				<div class="section_title section_title-avatar">
+					<img class="avatar" src="./Assets/avatar.jpg" alt="my photo">
+				</div>
+				<div class="section_content">
+					<div class="box-content">
+						<h1 class="profile_title">Anton Borzov</h1>
+						<h2>Front-End Developer (beginner)</h2>
+					</div>
+				</div>
+			</section>
+			<section class="section section_contacts" id="contacts">
+				<div class="section_title">
+					<div class="box-title">
+						<h2>Contacts:</h2>
+					</div>
+				</div>
+				<div class="section_content">
+					<div class="box-content">
+						<ul class="contacts_list">
+							<li class="contact_item"><span class="contact_item-desc">Location: </span><a
+									href="https://goo.gl/maps/FnKLZsBxZSMahTjZ8" title="Location">Samara, Russia</a>
+							</li>
+							<li class="contact_item"><span class="contact_item-desc">Email: </span><a
+									href="mailto:hi-bye@bk.ru" title="Email">hi-bye@bk.ru</a></li>
+							<li class="contact_item"><span class="contact_item-desc">Phone: </span>+7-960-826-5946</li>
+							<li class="contact_item"><span class="contact_item-desc">Telegram: </span><a
+									href="https://t.me/NE_hibye" title="Telegram">@NE_hibye</a></li>
+							<li class="contact_item"><span class="contact_item-desc">Discord: </span> hi-bye#2943</li>
+							<li class="contact_item"><span class="contact_item-desc">GitHab: </span><a
+									href="https://github.com/NE-hi-bye" title="GitHab">NE-hi-bye</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="section section_about-me" id="about-me">
+				<div class="section_title">
+					<div class="box-title">
+						<h2>About me</h2>
+					</div>
+				</div>
+				<div class="section_content">
+					<div class="box-content">
+						<p>
+							I am 39 years old and have worked in the construction industry all my life. A few years ago,
+							I
+							became curious about how websites are made. I began to study html and css. It seemed to me
+							that
+							I began to understand it , and most importantly - I enjoy it. And I decided to become a
+							specialist in the front end in order to completely change the field of activit
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="section section_skills" id="skills">
+				<div class="section_title">
+					<div class="box-title">
+						<h2>Skills</h2>
+					</div>
+				</div>
+				<div class="section_content">
+					<div class="box-content">
+						<ul class="section_content-list">
+							<li class="section_content-item">HTML</li>
+							<li class="section_content-item">CSS</li>
+							<li class="section_content-item">JS</li>
+							<li class="section_content-item">Adobe: Photoshop, After Effects, Illustrator, Premiere Pro
+							</li>
+							<li class="section_content-item">Vegas Pro</li>
+							<li class="section_content-item">CorelDRAW</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="section section_code-example" id="code">
+				<div class="section_title">
+					<div class="box-title">
+						<h2>Code</h2>
+					</div>
+				</div>
+				<div class="section_content">
+					<div class="box-content">
+						<pre class="pre">
+						<code>
+let hi = ["hi" , "hello" , "hey" , "Hola"];
+
+function getRandomElement(arr) {
+  let randIndex = Math.floor(Math.random() * arr.length);
+  return arr[randIndex];
+}
+let hiEnd = document.querySelector('.hiEnd');
+  hiEnd.textContent = getRandomElement(hi) + " programmer";
+						</code>
+					</pre>
+					</div>
+				</div>
+			</section>
+			<section class="section section_experience" id="experience">
+				<div class="section_title">
+					<div class="box-title">
+						<h2>Experience</h2>
+					</div>
+				</div>
+				<div class="section_content">
+					<div class="box-content">
+						<a href="https://rolling-scopes-school.github.io/ne-hi-bye-JSFEPRESCHOOL/portfolio/" target="_blank" class="box-content-link">Portfolio Alexa Rise</a>
+					
+						<a href="https://rolling-scopes-school.github.io/ne-hi-bye-JSFEPRESCHOOL/js30v1" target="_blank" class="box-content-link">Parrots</a>
+					
+						<a href="https://rolling-scopes-school.github.io/ne-hi-bye-JSFEPRESCHOOL/js30v3-coder" target="_blank" class="box-content-link">CODER GAME</a>
+					</div>
+				</div>
+			</section>
+			<section class="section section_education" id="education">
+				<div class="section_title">
+					<div class="box-title">
+						<h2>Education</h2>
+					</div>
+				</div>
+				<div class="section_content">
+					<div class="box-content">
+						<p>Samara College of Construction and Entrepreneurship</p>
+					</div>
+				</div>
+			</section>
+			<section class="section section_lang" id="lang">
+				<div class="section_title">
+					<div class="box-title">
+						<h2>Language</h2>
+					</div>
+				</div>
+				<div class="section_content">
+					<div class="box-content">
+						<p>A2</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="container footer_container">
+			<div><a href="https://github.com/NE-hi-bye" class="author">Anton Borzov 2022</a></div>
+			<a class="rss" href="https://rs.school/js/"></a>
+		</div>
+	</footer>
+
+</body>
+
+</html>
